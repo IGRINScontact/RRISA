@@ -10,21 +10,19 @@ IGRINS simultaneously reads out both H and K Band spectra (SDCH & SDCK) meaning 
 _Raw files can only be downloaded by night and not individually like reduced data products._
 
 ## Header Description
-- FILENAME: the name of the file that corresponds to the information in the rest of the row
-- CIVIL: the date of observation (YYYYMMDD)
-- JD: the julian date when the observation finished
-- FILENUMBER: number of the file
-- OBSTIME: time of observation
-- GROUP1: observation ID, file number for the first frame in the ABBA sequence (can be incorrect)
-- GROUP2: file number of the A0V star used in reduction (can be incorrect)
 - OBJNAME: name of object observed (user input)
+- RA_2000: telescope right ascension from the telescope converted into J2000 (+- deg)
+- DEC_2000: telescope declination from the telescope converted into J2000 (+- deg)
+- FILENAME: the name of the file that corresponds to the information in the rest of the row
 - OBJTYPE: the frame type, can be DARK, ARC, FLAT, SKY, TAR, STD and more
 - FRAMETYPE: ON or OFF
+- CIVIL: the date of observation (YYYYMMDD)
+- FILENUMBER: number of the file
+- JD: the julian date when the observation finished
+- OBSTIME: time of observation
 - EXPTIME: exposure time (in seconds)
 - ROTPA: rotation position angle
 - AM: airmass at the end of the observation
-- RA_2000: telescope right ascension converted into J2000 (+- deg)
-- DEC_2000: telescope declination converted into J2000 (+- deg)
 - BVC: barycentric velocity correction using [barycorrpy](https://github.com/shbhuk/barycorrpy) (km/s)
 - FACILITY: telescope of observation
 - PI: requester of observations, either name[s], program ID (for Gemini South), or "Unknown"
