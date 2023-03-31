@@ -1,6 +1,6 @@
 # Reduced IGRINS Files
 
-Dates included: 20140707 - 20210530
+Dates included: 20140707 - 20211231
 
 ## Description
 All of the existing IGRINS data has been hand reduced using the ([IGRINS plp](https://github.com/igrins/plp)). The Reduced version of RRISA includes different names for targets than the Raw component. The names come from the recipe files that are used to reduce the raw data. Often these names have been corrected by hand for mistakes in the raw data object names. The original names for all of the targets remain for reference to the Raw component. If users find anything that appears to be a misidentification we ask that they report it by raising a GitHub issue. Additional information about data reduction is outlined on our [website](https://RRISA.github.io/).

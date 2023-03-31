@@ -1,6 +1,6 @@
 # Cross-Matched Reduced IGRINS Files
 
-Dates included: 20140707 - 20210530
+Dates included: 20140707 - 20211231
 
 ## Description
 

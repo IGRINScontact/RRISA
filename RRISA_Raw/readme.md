@@ -1,6 +1,6 @@
 # Raw IGRINS Files
 
-Dates included: 20140707 - 20210530
+Dates included: 20140707 - 20211231
 
 ## Description
 The Raw component of RRISA includes all of the frames IGRINS has ever observed before May 2021 including Flats, Darks, Arcs, Targets, and Standards. This includes images that are not suitable for science like partial frames, frames with incorrect exposure times, or mislabeled frames. We recommend that before reducing spectra using raw files users check the IGRINS paper logs to ensure all frames are science quality. The paper logs can be downloaded using this [link](https://utexas.box.com/s/xinbky19f5t584l1ky3xq3wffig684zi).
