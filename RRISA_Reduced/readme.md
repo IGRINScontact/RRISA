@@ -9,8 +9,9 @@ _Note: The output files from the IGRINS PLP are an in vacuum wavelength solution
 
 
 ## Header Description
-- OBJNAME: name of object observed (user input) from the RRISA raw file
-- NAME: name of object observed (user input) from the recipe file
+- NAME: the manually corrected name of the observed object ()
+- OBJNAME_super: name of object observed (user input) from the RRISA raw file
+- OBJNAME_recipe: name of object observed (user input) from the recipe file
 - RA.2000: right ascension from the telescope converted into J2000 (+- deg)
 - DEC.2000: declination from the telescope converted into J2000 (+- deg)
 - FILENAME: the name of the file that corresponds to the information in the rest of the row

@@ -2,12 +2,12 @@
 
 Created by Dr. Kim Sokal in 2017, adapted by Erica Sawczynec for RRISA in 2022.
 
-##Purpose
+## Purpose
 Refine the telluric corrected IGRINS PLP output so the standard and target spectra are pixel aligned before division.
 Achieved by fitting the telluric sky line between 16452 and 16458 Angstroms for H-Band and 21740 and 21752 Angstroms for K-Band.
 
 ## Input
-The code is for specific use with the RRISA .csv files as pandas DataFrame objects (in Python) since the code iterates by row for each observation (each row contains all the information about each observation). 
+The code is for specific use with the RRISA .csv files as pandas DataFrame objects (in Python) since the code iterates by row for each observation (each row contains all the information about each observation).
 Optimized for use on subsamples, may come back to making a single use version of this code in the future.
 
 ## Variables to Change
