@@ -27,4 +27,5 @@ _Raw files can only be downloaded by night and not individually like reduced dat
 - FACILITY: telescope of observation (McDonald, DCT, or Gemini South)
 - PI: priciple investigator for the observations (who requested the observations); only avalible for McDonald and DCT Observations
 - PROGID: Gemini South program ID
+- SDCS: Either a list of slit camera image file numbers taken during the acquisition of the raw .spec file or for earlier civil dates with SDCS frames (20150401-20170310), a -1 flag followed by the number of SCDC images taken for that particular civil date (available to download from Box via the raw data URL)
 - RAW_URL: Link to access the raw data from the CIVIL using Box
