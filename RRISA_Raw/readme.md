@@ -17,7 +17,7 @@ _Raw files can only be downloaded by night and not individually like reduced dat
 - FILENAME: name of the file
 - OBJTYPE: the frame type; can be DARK, ARC, FLAT, SKY, TAR, or STD
 - FRAMETYPE: A/B (nod on the slit) or ON/OFF (for flats describes if the lamp is on or off, otherwise same as the nod positions for A/B) 
-- FILENUMBER: the number in the file name (also sometimes called the observation ID)
+- FILENUMBER: the number in the filename (also sometimes called the observation ID)
 - JD: the julian date when the observation finished
 - OBSTIME: the time the observation began
 - EXPTIME: exposure time (in seconds)
